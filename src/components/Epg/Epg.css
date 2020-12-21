@@ -1,0 +1,58 @@
+.days {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    background-color: white;
+    color: #676767;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.days .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    cursor: pointer;
+}
+
+.days .day:hover,
+.days .day.active {
+    background-color: #242424;
+    color: white;
+}
+
+.card.active {
+    background-color: #242424;
+    color: white;
+    position: relative;
+}
+
+.card.active ion-card-title {
+    color: white;
+}
+
+.card:hover {
+    background-color: #242424;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover ion-card-title {
+    color: white;
+}
+
+.directo {
+    color: red;
+    display: none;
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    font-size: 18px;
+    
+}
+
+.directo.active {
+    display: block;
+}
